@@ -1,0 +1,52 @@
+:root {
+--white: #fff;
+--black: rgb(0, 0, 0); 
+--orange: rgb(215, 91, 3);
+}
+
+header { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: var(--black);
+    color: var(--orange);
+}  
+
+header > img{
+height: auto;
+width: 200px;
+}
+
+ section > nav{
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.about_me{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Contact{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+main > img{
+    height: auto;
+    width: 200px;
+    display: inline-block;
+}
+
+
+
